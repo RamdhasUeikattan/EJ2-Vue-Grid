@@ -1,18 +1,28 @@
-# Essentail JavaScript Grid
-
-> A Vue.js project
+# Essentail JavaScript2 Grid
 
 ## Build Setup
 
+Use the following commands to run the project.
+
+### install dependencies
 ``` bash
-# install dependencies
 npm install
+```
 
-# serve with hot reload at localhost:8080
+### Run Application
+
+For Development mode:
+
+``` bash
 npm run dev
+```
 
-# build for production with minification
+For Production mode:
+
+```bash
 npm run build
 ```
+
+The application will serve with hot reload at http://localhost:8080
 
 For detailed explanation on customization of grid. check our [documentation](https://ej2.syncfusion.com/vue/documentation/grid/getting-started.html)
