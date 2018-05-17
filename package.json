@@ -10,8 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "@syncfusion/ej2-vue-grids": "^16.1.26",
-    "@syncfusion/ej2-vue-navigations": "^16.1.26",
+    "@syncfusion/ej2-vue-grids": "*",
     "vue": "^2.5.11"
   },
   "browserslist": [
