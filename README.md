@@ -1,4 +1,4 @@
-# Essentail JavaScript2 Grid
+# Essentail JavaScript2 Vue-Grid
 
 ## Build Setup
 
