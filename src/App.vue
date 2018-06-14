@@ -23,7 +23,7 @@ import { GridPlugin, Page, Sort, Filter, Group, Aggregate } from "@syncfusion/ej
 Vue.use(GridPlugin);
 
 export default {
-  data() {
+  data: function() {
     return {
       data: [
           { OrderID: 10248, CustomerID: 'VINET', Freight: 32.38 },
@@ -39,8 +39,8 @@ export default {
       pageSettings: { pageSize: 5 },
       footerSum: function () {
         return  { template : Vue.component('sumTemplate', {
-            template: `<span>Sum: {{data.Sum}}</span>`,
-            data () {return { data: {}};}
+            template: "<span>Sum: {{data.Sum}}</span>",
+            data: function () {return { data: {}};}
             })
           }
       }
